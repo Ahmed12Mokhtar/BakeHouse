@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label "sys-sdmin-mnf"
+        label "day2-slave-node"
     }
     parameters {
         choice(name: 'ENV_ITI', choices: ['dev', 'test', 'prod', "release"])
